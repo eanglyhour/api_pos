@@ -3,10 +3,10 @@ const calculateDistance = require("../utils/distance");
 //11.569527 , 104.889326       rupp
 //11.567525 , 104.827060       home at pp
 const OFFICE_LOCATION = {
-    // latitude: 11.567525,
-    // longitude: 104.827060,
-    latitude: 11.569527,
-    longitude: 104.889326,
+    latitude: 11.567525,
+    longitude: 104.827060,
+    // latitude: 11.569527,
+    // longitude: 104.889326,
 };
 
 const ALLOWED_RADIUS = 200;
