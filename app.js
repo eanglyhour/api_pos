@@ -18,6 +18,7 @@ const roleRoutes = require("./app/routes/roleRoutes");
 const rolePermissionRoutes = require("./app/routes/rolePermissionRoutes");
 const permissionRoutes = require("./app/routes/permissionRoutes");
 const authRoutes = require("./app/routes/authRoutes");
+const attendanceRoutes =require("./app/routes/attendanceRoutes");
 
 //middleware
 const errorMiddleware = require("./app/middleware/error.middleware");
@@ -47,6 +48,7 @@ const routes = [
   ["/api/roles", roleRoutes],
   ["/api/role-permissions", rolePermissionRoutes],
   ["/api/permissions", permissionRoutes],
+  ["/api/attendance" , attendanceRoutes],
 ];
 
 for (const [path, router] of routes) {
